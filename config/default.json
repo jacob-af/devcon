@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://JacobAF:DRANKS@devcon2.fe6ij.mongodb.net/DevConDB?retryWrites=true&w=majority",
-    "jwtSecret" : "mySecretToken"
+    "jwtSecret" : "mySecretToken",
+    "githubClientId": "13ae130400275217ec35",
+    "githubSecret": "4cc271ca7790809cec56b8932a20ae5f020614c7"
 }
