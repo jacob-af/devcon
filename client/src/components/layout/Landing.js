@@ -17,10 +17,10 @@ export const Landing = ({ isAuthenticated }) => {
             other developers
           </p>
           <div className="buttons">
-            <Link to="/register" clLinkssNLinkme="btn btn-primLinkry">
+            <Link to="/register" className="btn btn-primary">
               Sign Up
-            </Link>
-            <Link href="/login" clLinkssName="btn btn-light">
+            </Link>{" "}
+            <Link to="/login" className="btn btn-light">
               Login
             </Link>
           </div>
