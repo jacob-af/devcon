@@ -71,7 +71,7 @@ router.get("/:id", auth, async (req, res) => {
   }
 });
 
-// @route   GET api/posts/:id
+// @route   Delete api/posts/:id
 // @desc    delete a post
 // @access  Private
 router.delete("/:id", auth, async (req, res) => {

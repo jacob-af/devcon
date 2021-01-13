@@ -29,7 +29,7 @@ const ProfileGithub = ({ username, getGithubRepos, repos }) => {
               </h4>
               <p>{repo.description}</p>
             </div>
-            {/* <div>
+            <div>
               <ul>
                 <li className="badge badge-primary">
                   Stars:{repo.stargazers_count}
@@ -43,7 +43,7 @@ const ProfileGithub = ({ username, getGithubRepos, repos }) => {
               <ul>
                 <li className="badge badge-light">Forks:{repo.forks_count}</li>
               </ul>
-            </div> */}
+            </div>
           </div>
         ))
       )}
